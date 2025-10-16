@@ -77,11 +77,11 @@ const HomePage = () => {
 
       <section
   id="home"
-  className="hero-section flex items-center justify-center p-8 text-center mt-0 min-h-[87vh]"
+  className="hero-section flex items-center justify-center p-8 text-center mt-0 min-h-[100vh]"
   style={{
     backgroundImage: `
-      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-       url('https://picsum.photos/1600/900?blur=5') 
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+       url('https://picsum.photos/1600/900?blur=2') 
     `,
     backgroundPosition: "center",
     backgroundSize: "cover",
@@ -89,7 +89,7 @@ const HomePage = () => {
   }}
 >
   <div className="max-w-4xl text-white">
-    <h1 className="text-5xl sm:text-7xl font-extrabold mb-4">
+    <h1 className="text-7xl sm:text-7xl font-extrabold mb-8">
       Your Success Starts Here.
     </h1>
     <p className="text-xl sm:text-2xl mb-8 font-light">
@@ -99,7 +99,7 @@ const HomePage = () => {
     <div className="flex flex-col sm:flex-row justify-center gap-4">
       <a
         href="#projects"
-        className="px-8 py-3 rounded-lg font-bold text-lg bg-blue-500 text-white hover:opacity-90 transition shadow-xl"
+        className="px-8 py-3 rounded-lg font-bold text-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:opacity-90 transition shadow-xl"
       >
         Browse Projects
       </a>
