@@ -165,7 +165,7 @@ const MessagesPage = ({ onBack }) => {
   }, [messages, isTyping]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-cyan-400 to-purple-400">
       {/* Header */}
       <div className="max-w-7xl mx-auto px-6 py-6">
         <button onClick={onBack} className='flex items-center text-blue-900 hover:text-blue-700 mb-6 group'>
@@ -173,10 +173,10 @@ const MessagesPage = ({ onBack }) => {
         </button>
         <div className="mb-6 flex flex-col sm:flex-col sm:items-start sm:justify-between gap-3">
           <div className="flex items-center gap-3">
-            <div className="bg-gradient-to-tr from-purple-500 to-pink-500 p-4 rounded-full shadow-lg transform transition-transform hover:scale-110">
+            <div className="bg-gradient-to-tr from-purple-700 to-pink-500 p-4 rounded-full shadow-lg transform transition-transform hover:scale-110">
               <MessageCircle className="text-white w-8 h-8" />
             </div>
-            <h1 className="text-3xl sm:text-4xl font-extrabold bg-gradient-to-br from-blue-800 to-pink-800 bg-clip-text text-transparent">
+            <h1 className="text-3xl sm:text-4xl font-extrabold bg-gradient-to-br from-blue-900 to-pink-800 bg-clip-text text-transparent">
               Messages
             </h1>
           </div>
@@ -184,7 +184,7 @@ const MessagesPage = ({ onBack }) => {
             Stay connected with clients and freelancers, manage all your conversations in one place.
           </p>
         </div>
-        <hr className="border-gray-400 mb-10" />
+        <hr className="border-gray-900 mb-10" />
       </div>
       {showMoreOptions && (
             <div className="absolute right-4 top-58 bg-white rounded-lg shadow-lg border border-gray-200 p-2 z-10">
